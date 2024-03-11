@@ -1,0 +1,243 @@
+header {
+  background-color: #3b4c5c;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0%;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+#læsmere {
+  font-size: 32px;
+  text-decoration: none;
+  border: solid white 2px;
+  text-align: center;
+  width: 8%;
+  margin-left: 45%;
+}
+
+h2 {
+  color: #ffffff;
+  padding-top: 10%;
+  text-align: center;
+  font-size: 60px;
+}
+body {
+  margin: 0%;
+}
+.image-box {
+  padding-top: 0%;
+  margin: 0%;
+  width: 100%;
+  height: 900px;
+  background-image: url("./billeder/upload/Event_Centrum_0000_Special.jpg");
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+.right-text {
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.middle {
+  width: 100%;
+  display: flex;
+}
+.middle-left {
+  background-color: #78d0fe;
+  color: white;
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+.icons {
+  height: 90px;
+  margin-right: -50px;
+}
+
+.right-icons {
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.bottom-website {
+  display: flex;
+  padding-top: 5%;
+  background-color: #272e38;
+  padding-bottom: 5%;
+}
+.container {
+  width: 30%;
+  padding: 2%;
+  border-radius: 5px;
+  background-color: #2b353f;
+  color: #fff;
+  margin-right: 10%;
+}
+.left-bottom {
+  color: #fff;
+  font-size: 32px;
+}
+.left-bottom p {
+  color: #fff;
+  margin-top: -5px;
+}
+h5 {
+  text-align: center;
+  color: white;
+}
+
+.send-div {
+  background-color: #4d4c52;
+  padding-top: 4px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  background-color: #4d4c52;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 6px;
+}
+.send-div {
+  text-align: center;
+}
+.send-div img {
+  height: 30px;
+  margin-bottom: -6px;
+}
+.send-div input {
+  font-size: 22px;
+  background-color: #4d4c52;
+}
+input[type="submit"]:hover {
+  background-color: gray;
+}
+.bottom-website {
+  width: 100%;
+  justify-content: space-between;
+}
+.bottom-icons {
+  display: flex;
+  justify-content: left;
+  padding: 3%;
+}
+.bottom-icon {
+  padding-right: 5%;
+  height: 40px;
+  margin-top: 3%;
+}
+h5 {
+  font-size: 32px;
+}
+nav li a {
+  padding-right: 50px;
+}
+.left-bottom {
+  width: 30%;
+  text-align: left;
+  margin-left: 10%;
+}
+.links-header {
+}
+/* button-shit */
+nav li a {
+  font-size: 1.5em;
+  text-decoration: none;
+  list-style-type: none;
+}
+nav li {
+  text-decoration: none;
+  list-style-type: none;
+}
+a:link {
+  color: #ffffff;
+}
+.middle-right p {
+  flex-direction: column;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+h2 {
+  margin: 0%;
+  padding: 0%;
+  padding-top: 5%;
+}
+@media only screen and (max-width: 800px) {
+  .bottom-website {
+    display: block;
+  }
+  .middle {
+    display: block;
+  }
+  .middle-left {
+    width: 100%;
+  }
+  .image-box {
+    height: 600px;
+  }
+  .middle-right {
+    width: 100%;
+    margin-bottom: -50px;
+  }
+  #læsmere {
+    width: 25%;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .right-icons {
+    height: 0;
+    width: 0;
+  }
+  .icons {
+    height: 0%;
+    width: 0%;
+  }
+  .container {
+    width: 80%;
+    padding-right: 30px;
+  }
+  .left-bottom {
+    width: 90%;
+    font-size: 16px;
+  }
+  nav li a {
+    padding-right: 0px;
+  }
+  header img {
+    max-width: 150px;
+    margin-left: 15px;
+  }
+}
